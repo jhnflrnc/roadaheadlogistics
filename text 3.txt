@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #111;
+  background-color: #fff;
+}
+
+header {
+  background-color: #111;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: red;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.hero {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero .btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.services, .about, .quote {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.quote form {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote input, .quote textarea {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1em;
+  width: 100%;
+  max-width: 500px;
+}
+
+.quote button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}

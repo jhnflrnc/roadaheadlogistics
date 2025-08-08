@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us - Road Ahead Logistics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Road Ahead Logistics</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About / Get a Quote</a>
+    </nav>
+  </header>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Founded in 2024, Road Ahead Logistics is a small, independent car hauling company doing business as M & E Transportation Worldwide Inc. We’re proud to operate with heart, hustle, and a long-term vision. Based on firsthand experience in the industry, we know what it takes to deliver vehicles safely, efficiently, and with care.</p>
+
+    <p>While we currently focus on car hauling, our mission is to expand into other areas of logistics as we grow. Our name reflects our vision — we’re always looking ahead to new opportunities and better ways to serve our clients.</p>
+  </section>
+
+  <section class="quote">
+    <h2>Request a Quote</h2>
+    <form action="mailto:jflorence@roadaheadlogistics.com" method="POST" enctype="text/plain">
+      <label>Name:<br><input type="text" name="Name" required></label><br>
+      <label>Email:<br><input type="email" name="Email" required></label><br>
+      <label>Phone:<br><input type="tel" name="Phone" required></label><br>
+      <label>Type of Transport or Inquiry:<br><textarea name="Message" rows="4" required></textarea></label><br>
+      <button type="submit">Send Inquiry</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Road Ahead Logistics | DOT 2415341 | MC 831512</p>
+  </footer>
+
+</body>
+</html>

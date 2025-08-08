@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Road Ahead Logistics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Road Ahead Logistics</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About / Get a Quote</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>The Road Ahead Starts Here</h1>
+    <p>Specializing in reliable and professional car hauling across the country.</p>
+    <a href="about.html" class="btn">Request a Quote</a>
+  </section>
+
+  <section class="services">
+    <h2>What We Do</h2>
+    <p>We specialize in car hauling services with a focus on safe, timely, and professional delivery.</p>
+    <p><strong>DOT:</strong> 2415341 &nbsp; | &nbsp; <strong>MC:</strong> 831512</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Road Ahead Logistics | DBA M & E Transportation Worldwide Inc.</p>
+  </footer>
+
+</body>
+</html>
